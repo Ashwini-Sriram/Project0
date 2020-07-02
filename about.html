@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html >
+  <head>
+
+    <title>About Us</title>
+    <style>
+    #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height:100% ;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  font-size:20px;
+  position: fixed;
+  top: 200px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px ;
+
+  margin-bottom:0;
+  height:60%;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0px;
+overflow: hidden;
+background-color: black;
+}
+
+li{
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+    </style>
+  </head>
+
+  <body>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="https://ak.picdn.net/shutterstock/videos/1036414232/preview/stock-footage-lion-cubs-with-there-mother.webm"
+      type="video/mp4">
+    </video>
+    <div style="background:black">
+    <nav style="position:fixed;">
+      <div >
+    <div >
+      <ul>
+        <li><a href="home.html" style="font-size:30px; color:white;">Home</a></li>
+
+      <li>  <a href="about.html" style="font-size:30px; color:white;">About Us</a></li>
+
+
+        <li><a href="lion1.html" style="font-size:30px; color:white;">Our Greatest Assets</a></li>
+
+        <li><a href="form.html" style="font-size:30px; color:white;">Donations</a></li>
+    <ul>
+    </div>
+    </div>
+    </nav>
+    </div>
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+      <h1>Save The Lions of Africa</h1>
+      <p>They need you - especially now. Don’t let poachers exploit the COVID-19 crisis.Lions have long been considered the kings of the jungle,
+        <br>but perhaps their reign is coming to an end.The population of African lions is less than what it was just three decades aga,<br>
+        and their population has been wiped out across much of Africa.Unless we act now , African lions could be extinct by 2050.<br>
+      </p>
+      <p>
+        <span style="font-style:bold; font-size:30px;">Protecting Africa's most threatened species.</span><br>
+            Save the lions of Africa was established in 2020.It is created to support Initiative 1401, <br>
+            a first-of-its-kind ballot measure in Washington State which prohibited the purchase,<br>
+             sale, and distribution of products made from a list of 10 endangered animals.<br>
+             Working closely with partners from the nation’s leading conservation, education, <br>
+             and zoological organizations, as well as grassroots donors from across the United States,<br>
+              I-1401 passed with over 70 percent support in November 2015.<br>
+      </p>
+      <!-- Use a button to pause/play the video with JavaScript -->
+      <button id="myBtn" onclick="home.html"><a href=form.html style="font-size:20px; color:white;">Donate</a></button>
+
+    </div>
+
+  </body>
+</html>
